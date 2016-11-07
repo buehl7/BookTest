@@ -6,10 +6,11 @@
 <book xmlns="http://docbook.org/ns/docbook">
     <title>An Example Book</title>
     <titleabbrev>Example</titleabbrev>
-    <bookinfo>
+    <info>
         <author>
             <personname>Brutus Buckeye</personname>
         </author>
+    </info>
     <dedication>
         <para> This book is dedicated to you. </para>
     </dedication>
@@ -17,15 +18,23 @@
         <title>Foreword</title>
         <para> Some content is always required. </para>
     </preface>
-    </bookinfo>
+   
         <chapter>
         <title>Required Chapter</title>
         <para> At least one chapter, reference, part, or article is required in a book. </para>
         <para>This is a new paragraph.
         </para>
-            <figure/>
-         
             <figure>
+                <info>
+                    <title>Figure <inlinemediaobject>
+                        <imageobject>
+                            <imagedata fileref="../../../../Desktop/fivecanons2_thumb.jpg"/>
+                        </imageobject>
+                    </inlinemediaobject></title>
+                    
+                </info>
+         
+            </figure>
     </chapter>
     <appendix>
         <title>Optional Appendix</title>
