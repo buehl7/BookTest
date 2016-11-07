@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+          "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<book xmlns="http://docbook.org/ns/docbook">
+    <title>An Example Book</title>
+    <titleabbrev>Example</titleabbrev>
+    <bookinfo>
+        <author>
+            <personname>Brutus Buckeye</personname>
+        </author>
+    <dedication>
+        <para> This book is dedicated to you. </para>
+    </dedication>
+    <preface>
+        <title>Foreword</title>
+        <para> Some content is always required. </para>
+    </preface>
+    </bookinfo>
+        <chapter>
+        <title>Required Chapter</title>
+        <para> At least one chapter, reference, part, or article is required in a book. </para>
+        <para>This is a new paragraph.
+        </para>
+            <figure/>
+         
+            <figure>
+    </chapter>
+    <appendix>
+        <title>Optional Appendix</title>
+        <para> Appendixes are optional. </para>
+    </appendix>
+</book>
